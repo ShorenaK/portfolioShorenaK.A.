@@ -16,6 +16,10 @@
 ![](img/readmeaboutpage.png)
 
 
+## Skill page. 
+![](img/skills.png)
+
+
 ## Project page.
 ![](img/project.png)
 
@@ -29,7 +33,7 @@
 
 ## Link to hosted application:
 
-https://shorenakanzhilov.netlify.app/
+
 
 ## Support: 
 
