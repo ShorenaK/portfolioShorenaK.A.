@@ -33,6 +33,7 @@
 
 ## Link to hosted application:
 
+https://portfolio-shorenakanzhilov.netlify.app/
 
 
 ## Support: 
