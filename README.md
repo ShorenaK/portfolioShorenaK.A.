@@ -6,14 +6,10 @@
   - Showcases own portfolio. 
 
 
-## Home page 
-
-
-![](img/readmehomepage.png)
-
 
 ## About page.
-![](img/readmeaboutpage.png)
+
+![](img/readmehomepage.png)
 
 
 ## Skill page. 
@@ -24,11 +20,8 @@
 ![](img/project.png)
 
 
-
-
 ## Development Tools:
  HTML, CSS, JavaScript.
-
 
 
 ## Link to hosted application:
