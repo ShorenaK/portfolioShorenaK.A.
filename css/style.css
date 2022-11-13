@@ -17,8 +17,8 @@
 
     --clr-light: #fff;
     --clr-dark: rgb(1, 37, 61) ;
-    --clr-accent: #51A7F9;
-    /* --clr-accent: rgb(6, 82, 132); */
+    /* --clr-accent: #51A7F9; */
+    --clr-accent: rgb(6, 82, 132);
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -107,10 +107,13 @@ h3{
 }
 
 .section__title{
- margin-bottom: .25em;
+ margin-bottom: .50em;
+
 
 }
-
+.section__title--about{
+    margin-left: 200px;
+}
 .section__title--intro{
     font-weight: var(--fw-reg);
 }
@@ -353,6 +356,7 @@ header{
 
     .section__title--about{
         grid-area: title;
+        text-align: center;
     }
     .section__subtitle--about{
     grid-column: 1 / -1;
@@ -523,18 +527,20 @@ display: inline-block;
 }
 
 .button {
-    width: 200px;
-    height: 55px;
+    width: 150px;
+    height: 45px;
     border-radius: 30px;
     background-color: #51A7F9;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 30px;
     border: none;
     margin-inline: 10px;
-    padding-top: 12px;
+    padding-top: 10px; 
+    padding-bottom: 12px; 
+   
 }
 
 .a_tag{
