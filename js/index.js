@@ -15,7 +15,7 @@ navLinks.forEach(link =>{
 // typing animation
 
 const typed = new Typed(".section__subtitle", {
-    strings:[ " ","Software Engineer 📲🛑",  "Full Stack Developer 💻", "MERN Stack Dev ✅", "Django/Python 🖥🌐✅" ], 
+    strings:[ " ", "Software Engineer 📲🛑", "Full Stack Developer 💻", "MERN Stack Dev ✅", "Django/Python 🖥🌐✅" ], 
     typeSpeed:100, 
     BackSpeed:60,
     loop:true

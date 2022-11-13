@@ -9,7 +9,7 @@
 /* custom properties  */
 
 :root{
-    --ff-primary: 'Lora', serif;
+    --ff-primary: 'Roboto Slab', serif;
     --ff-secondary: 'Roboto Slab', serif;
 
     --fw-reg: 400;
@@ -17,7 +17,8 @@
 
     --clr-light: #fff;
     --clr-dark: rgb(1, 37, 61) ;
-    --clr-accent: rgb(6, 82, 132);
+    --clr-accent: #51A7F9;
+    /* --clr-accent: rgb(6, 82, 132); */
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -290,7 +291,6 @@ header{
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
-
 }
 .section__title--services{
     color: var(--clr-accent);
@@ -312,8 +312,9 @@ header{
 }
 
 .service{
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 0 auto;
+    font-size: 120px;
 }
 @media (min-width: 800px){
     .services{
@@ -519,4 +520,24 @@ display: inline-block;
 
 .email__social--links{
     display: inline-block;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #51A7F9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 30px;
+    border: none;
+    margin-inline: 10px;
+    padding-top: 12px;
+}
+
+.a_tag{
+    text-decoration: none;
+    color: #fff;
 }
