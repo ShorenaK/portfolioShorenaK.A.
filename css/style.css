@@ -112,7 +112,10 @@ h3{
 
 }
 .section__title--about{
-    margin-left: 200px;
+    /* margin-left: 100px;  */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
 }
 .section__title--intro{
     font-weight: var(--fw-reg);
@@ -124,7 +127,7 @@ h3{
 
 .section_subtitle{
     margin: 0;
-    /* font-size: var(--fs-h3); */
+    font-size: var(--fs-h3);
 }
 
 /* middle part  /* .section__subtitle--about, */ 
@@ -484,6 +487,7 @@ header{
     color: azure;
     margin-bottom: 8rem;
    
+   
 }
 
 
@@ -514,15 +518,14 @@ display: inline-block;
 .project__btn:hover{
     transform: scale(1.1);
 }
-
-.section__subtitle--about
+ .section__subtitle--about
 {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* height: 150px;
-    width: 150px; */
-}
+    width: 150px;  */
+ } 
 
 .email__social--links{
     display: inline-block;
@@ -540,7 +543,7 @@ display: inline-block;
     font-size: 20px;
     margin-top: 30px;
     border: none;
-  margin-inline: 10px; 
+     margin-inline: 10px; 
     padding-top: 10px; 
     padding-bottom: 12px; 
    
@@ -550,4 +553,10 @@ display: inline-block;
 .a_tag{
     text-decoration: none;
     color: #fff;
+}
+.section__title--work{
+   
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
 }
