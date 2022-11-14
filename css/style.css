@@ -124,7 +124,7 @@ h3{
 
 .section_subtitle{
     margin: 0;
-    font-size: var(--fs-h3);
+    /* font-size: var(--fs-h3); */
 }
 
 /* middle part  /* .section__subtitle--about, */ 
@@ -315,7 +315,7 @@ header{
 }
 
 .service{
-    /* max-width: 500px; */
+     max-width: 500px; 
     margin: 0 auto;
     font-size: 120px;
 }
