@@ -112,7 +112,7 @@ h3{
 
 }
 .section__title--about{
-    margin-left: 150px;  
+    margin-left: 160px;  
     /* align-items: center; */
     display: flex;
     justify-content: center;
@@ -364,6 +364,7 @@ header{
         grid-area: title;
         text-align: center;
     }
+    
     .section__subtitle--about{
     grid-column: 1 / -1;
     grid-row: 2;
