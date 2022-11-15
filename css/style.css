@@ -385,7 +385,7 @@ header{
     
     .section__subtitle--about{
     grid-column: 1 / -1;
-    grid-row: 3;
+    grid-row: 1;
     position: relative;
     left: -1em;
     width:calc(100% + 2em );
@@ -418,7 +418,7 @@ header{
     }
     .section__subtitle--about{
     grid-column: 1 / -1;
-    grid-row: 3;
+    grid-row: 1;
     position: relative;
     left: -1em;
     width:calc(100% + 2em );
@@ -451,7 +451,7 @@ header{
     }
     .section__subtitle--about{
     grid-column: 1 / -1;
-    grid-row: 3;
+    grid-row: 1;
     position: relative;
     left: -1em;
     width:calc(100% + 2em );
