@@ -96,6 +96,7 @@ strong{
      margin-inline: 10px; 
     padding-top: 10px; 
     padding-bottom: 12px; 
+    color: #fff;
 }
 
 .btn:hover{
@@ -807,17 +808,17 @@ display: inline-block;
  font-weight: var(--fw-bold);
  transition: transform 200ms ease-in-out;
  border-radius: 7px;
- width: 150px;
+ width: 125px;
     height: 45px;
     border-radius: 30px;
     background-color: #51A7F9;
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 30px;
+    margin-bottom: 30px;
     border: none;
      margin-inline: 10px; 
     padding-top: 10px; 
     padding-bottom: 12px; 
-  
 }
 
 .project__btn:hover{
@@ -839,6 +840,7 @@ display: inline-block;
      margin-inline: 10px; 
     padding-top: 10px; 
     padding-bottom: 12px; 
+    color: #fff;
    
    
 }
